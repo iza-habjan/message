@@ -18,3 +18,10 @@
 **Groups of 6 characters** 011100 110110 010101 100011
 **Convert each group of 6 into a character** c 2 V j
 **Join characters together** c2Vj **_(the encoded string)_**
+
+# btoa()
+
+The **btoa()** method creates a **Base64-encoded ASCII string** from a **binary string** (i.e., a String object in which each character in the string is treated as a byte of binary data).
+
+**Syntax**
+### btoa(stringToEncode)
