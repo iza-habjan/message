@@ -1,3 +1,7 @@
+const { hash } = window.location;
+
+console.log(atob(hash.replace("#", "")));
+
 document.querySelector("form").addEventListener("submit", (event) => {
   // to prevent default browser action of submiting the form to some backend server
   event.preventDefault();
