@@ -32,3 +32,10 @@ The **atob()** function decodes a string of data which has been encoded using Ba
 **Syntax**
 
 ### atob(encodedData)
+
+# URL example
+
+**Domain** message.com **Path** /index.html/ **Query String** ?color=red **Hash/fragment** #value
+
+**Query String** like an options object (color as key, red as value) used to comunicate some number of options to a backend server
+**Hash/fragment** intended for the use of the browser specifically, only relevent to the browser
